@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://xiaolin.fun"
+baseURL = "http://xiaolin.fun"
 languageCode = "en-us"
 title = "Xiaolin Xing"
 theme = "split"
