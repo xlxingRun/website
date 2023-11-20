@@ -2,7 +2,7 @@
 baseURL = "https://xiaolin.fun"
 languageCode = "en-us"
 title = "Xiaolin Xing"
-theme = "hugo-split-theme"
+theme = "split"
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 
 # Local preview mode
