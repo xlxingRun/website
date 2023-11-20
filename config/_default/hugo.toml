@@ -1,0 +1,113 @@
+# Site settings
+baseURL = "https://xiaolin.fun"
+languageCode = "en-us"
+title = "Xiaolin Xing"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2023 Xiaolin Xing"
+
+
+# 默认的markdown渲染器
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Xiaolin Xing"
+  description = "邢小林，本科和硕士均就读于北京邮电大学计算机科学与技术专业，Java服务端研发"
+#  shareImage = "images/social.jpg"
+  twitterHandle = "xiaolin"
+
+  # Favicon
+  favicon = "images/favicon.svg"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.png"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+      [[params.links.list1.link]]
+        text = "GitHub"
+        url = "https://github.com/xlxingRun"
+        new_tab = true
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "https://www.bupt.edu.cn"
+        new_tab = false # Default, open at same tab
+
+      [[params.links.list1.link]]
+        text = "Newsletter"
+        url = "newsletter"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Sina Weibo"
+        url = "https://weibo.com/u/7716303439"
+        new_tab = true # new tab
+
+      [[params.links.list2.link]]
+        text = "Zhihu"
+        url = "https://www.zhihu.com/people/jin-ji-de-shao-nian-76"
+        new_tab = true
+
+      [[params.links.list2.link]]
+        text = "Bilibili"
+        url = "https://space.bilibili.com/323410491"
+        new_tab = true
+
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Links"
+
+      [[params.links.list3.link]]
+        text = "北京邮电大学"
+        url = "https://www.bupt.edu.cn"
+        new_tab = false
+
+      [[params.links.list3.link]]
+        text = "Google学术"
+        url = "https://scholar.google.com/schhp?hl=zh-CN"
+        new_tab = false
+
+      [[params.links.list3.link]]
+        text = "Bi站"
+        url = "https://www.bilibili.com"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
