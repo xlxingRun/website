@@ -98,8 +98,8 @@ copyright = "&copy;2023 Xiaolin Xing"
       heading = "Links"
 
       [[params.links.list3.link]]
-        text = "北京邮电大学"
-        url = "https://www.bupt.edu.cn"
+        text = "想看视频"
+        url = "https://www.xiaolin.fun:8080"
         new_tab = false
 
       [[params.links.list3.link]]
