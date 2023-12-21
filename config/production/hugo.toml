@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "47.94.104.34"
+baseURL = "http://www.xiaolin.fun"
 languageCode = "en-us"
 title = "Xiaolin Xing"
 theme = "split"
@@ -30,6 +30,10 @@ copyright = "&copy;2023 Xiaolin Xing"
 
   # Favicon
   favicon = "images/favicon.svg"
+
+  icp = "京ICP备2023031576号"
+  icp_url = "http://beian.miit.gov.cn/"
+
 
   # Section - Visual
   [params.visual]
