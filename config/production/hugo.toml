@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "http://www.xiaolin.fun"
 languageCode = "en-us"
-title = "Xiaolin Xing"
+title = "Ye Zhou"
 theme = "split"
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 
@@ -23,10 +23,10 @@ copyright = "&copy;2023 Xiaolin Xing"
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Xiaolin Xing"
-  description = "邢小林，本科和硕士均就读于北京邮电大学计算机科学与技术专业，Java服务端研发"
+  author = "Ye Zhou"
+  description = "周也，1998年出生，毕业于北京电影学院，当红小花"
 #  shareImage = "images/social.jpg"
-  twitterHandle = "xiaolin"
+  twitterHandle = "ye"
 
   # Favicon
   favicon = "images/favicon.svg"
@@ -41,7 +41,7 @@ copyright = "&copy;2023 Xiaolin Xing"
     # Image
     [params.visual.image]
       enable = true
-      file = "images/zy.jpeg"
+      file = "images/ye.jpeg"
       position = "center center"
 
     # Video
