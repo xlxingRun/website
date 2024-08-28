@@ -1,10 +1,7 @@
-# Split主题
-
-个人信息界面展示，没有博客的功能
-
+# Hugo项目实践
+## Split主题
+个人简历
 [split主体](https://themes.gohugo.io/themes/hugo-split-theme/)
-
-
 
 
 ## 快速启动
@@ -28,7 +25,7 @@ hugo server -D
 hugo server -P
 ```
 
-项目打包
+项目编译
 ```shell
 hugo
 ```

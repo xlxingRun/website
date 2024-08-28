@@ -2,7 +2,7 @@
 baseURL = "http://www.xiaolin.fun"
 languageCode = "en-us"
 title = "Ye Zhou"
-theme = "split"
+theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 
 # Local preview mode
